@@ -1,0 +1,63 @@
+/* Reset default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.netflix-title {
+    font-size: 5em;
+    font-weight: bold;
+    color: #e50914;
+    margin: 0;
+}
+
+.signin-signup {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+/* Content styles */
+.content {
+    padding: 20px;
+}
+
+.section-title {
+    color: #fff;
+}
+
+.posters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.poster {
+    margin: 10px;
+}
+
+.poster img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
